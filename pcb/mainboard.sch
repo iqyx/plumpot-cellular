@@ -21685,9 +21685,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <wire x1="373.38" y1="332.74" x2="261.62" y2="332.74" width="1.016" layer="109"/>
 <wire x1="261.62" y1="332.74" x2="261.62" y2="383.54" width="1.016" layer="109"/>
 <text x="-121.92" y="-25.4" size="1.778" layer="108">move the console USART to PA9/PA10 to enable bootloader over USART</text>
-<text x="-121.92" y="-27.94" size="1.778" layer="108">add PTC to VIN</text>
-<text x="-121.92" y="-30.48" size="1.778" layer="108">replace VIN sensing resistor (bigger package)</text>
-<text x="-121.92" y="-33.02" size="1.778" layer="108">replace NCP1521</text>
+<text x="-121.92" y="-27.94" size="1.778" layer="108">replace NCP1521</text>
 <text x="12.7" y="378.46" size="1.778" layer="97">UXB bus output power OR</text>
 <text x="121.92" y="378.46" size="1.778" layer="97">Main power supply</text>
 <text x="-124.46" y="302.26" size="1.778" layer="97">60Vin power supply</text>
@@ -21698,6 +21696,12 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <text x="271.78" y="76.2" size="1.778" layer="97">I2C EEPROM</text>
 <text x="27.94" y="-17.78" size="1.778" layer="97">unodex-connect-42-0.1.0</text>
 <text x="27.94" y="-22.86" size="1.778" layer="97">(c) 2017, qyx@krtko.org, CC-BY-SA</text>
+<text x="-121.92" y="-30.48" size="1.778" layer="108">add cap to ground to the NRST line</text>
+<text x="-121.92" y="-33.02" size="1.778" layer="108">remove 60V power supply</text>
+<text x="-121.92" y="-35.56" size="1.778" layer="108">replace AX5243 radio with SX1231</text>
+<text x="-121.92" y="-38.1" size="1.778" layer="108">remove I2C connector</text>
+<text x="-121.92" y="-40.64" size="1.778" layer="108">remove I2C EEPROM</text>
+<text x="-121.92" y="-43.18" size="1.778" layer="108">bump major version</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="325.12" y="149.86"/>
